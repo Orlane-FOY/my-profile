@@ -1,0 +1,107 @@
+body {
+	background-color: #DAEDF2;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size : 16px;
+}
+h1 {
+	color : #048B9A;
+	text-align : center;
+	font-weight: bold;
+	font-size : 32px;
+}
+h2 {
+
+	color : rgb(23, 130, 153);
+	font-size : 22px;
+	margin-bottom : 40px
+}
+h2,h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+	color : rgb(102, 195, 215);
+	font-size : 18px;
+	margin-bottom: 20px;
+}
+p{
+	font-family: 'Mukta', sans-serif;
+	text-align: left;
+}
+.img-sizer{
+	display: block;
+	margin : 30px auto;
+	height: 60%;
+	width: 60%;
+	border-radius : 6px;
+}
+a{
+	text-decoration : none;
+}
+
+.text-center {
+	text-align: center;
+}
+.card-style{
+	background : white;
+	border-radius: 6px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	padding : 40px;
+	margin : 20px auto;
+}
+
+#main-div{
+	width : 800px;
+	margin : 40px auto;
+}
+
+@media (max-width: 1000px) {
+	#main-div{
+		width : 700px;
+	}
+}
+@media (max-width: 760px) {
+	#main-div{
+		width : 600px;
+	}
+}
+@media (max-width: 500px) {
+	#main-div{
+		width : 400px;
+	}
+}
+#text-size{
+	font-weight: lighter;
+	color : black;
+	font-size : 20px;
+
+}
+.list-inline{
+	list-style : none;
+	padding-left: 0px;
+	text-align: center;
+}
+.list-inline li{
+	display : inline;
+	padding: 10px;
+}
+.list-inline i{
+	color : rgb(150,150,150) ;
+	font-size: 3em;
+}
+.list-inline i:hover{
+	color : rgb(100,100,100) ;
+}
+
+#img-cheval{
+	height: 45%;
+	width: 45%;
+	margin : 10px 196px ;
+	border-radius : 5px;
+}
+#img-monde{
+	height: 85%;
+	width: 85%;
+	margin : 10px 60px ;
+	border-radius : 5px;
+}
